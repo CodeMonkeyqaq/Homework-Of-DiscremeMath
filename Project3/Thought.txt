@@ -1,0 +1,6 @@
+将源代码中stdio等C语言代码替换为iostream
+用cin，cout控制输入输出流
+使用了system("cls")清屏和pause暂停，增加交互便利程度
+将代码中不符合规范的位置进行了大括号补全
+编译环境: Visual Studio 2015
+语言: C++

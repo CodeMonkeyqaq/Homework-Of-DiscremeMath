@@ -42,7 +42,7 @@ int main()
 			system("cls");  //清屏
 			menu();
 			cout << "\n  请输入P的值（0或1）,以回车结束:";
-			cout << i<<endl;
+			cout << i << endl;
 			cout << "\n  请输入Q的值（0或1）,以回车结束:";
 			cin >> j;
 		}
@@ -50,14 +50,14 @@ int main()
 		a[1] = i || j;  //或运算
 		a[2] = (!i) || j;  //蕴含运算，将其转化为与或非形式
 		a[3] = ((!i) || j) && ((!j) || i);  //等值运算，将其转化为与或非形式
-		cout << "\n\n  合取:\n       P/\\Q = " << a[0]<<endl;  //输出结果
+		cout << "\n\n  合取:\n       P/\\Q = " << a[0] << endl;  //输出结果
 		cout << "  析取:\n       P\\/Q = " << a[1] << endl;
 		cout << "  条件:\n       P->Q = " << a[2] << endl;
 		cout << "  双条件:\n       P<->Q = " << a[3] << endl;
 		cout << "\n是否继续运算?（y/n）";  //询问是否继续操作
 		if (cin >> s)
 		{
-			while(s != 'y' && s != 'n')
+			while (s != 'y' && s != 'n')
 			{
 				cout << "输入错误,请重新输入!\n"; //错误校验
 				cin >> s;

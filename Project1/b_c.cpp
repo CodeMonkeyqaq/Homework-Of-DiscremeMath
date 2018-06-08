@@ -48,21 +48,21 @@ int main()
 			d = 1;
 		}
 	}
-	cout<<"\n该式子中的变量个数为:" << j;  //输出变量个数
+	cout << "\n该式子中的变量个数为:" << j;  //输出变量个数
 	h0 = j;
-	cout<<"\n输出真值表如下:\n \n";  //输出真值表表头
+	cout << "\n输出真值表如下:\n \n";  //输出真值表表头
 	for (i1 = 0; i1 < h0; i1++)
 	{
-		cout<<" "<<ccu[i1]<<" ";
+		cout << " " << ccu[i1] << " ";
 	}
-	cout<<"    "<<sz<<endl;
+	cout << "    " << sz << endl;
 	for (i1 = 0; i1 < j; i1++)   //先将所有的变量赋值为零。
 	{
 		icu[i1] = 0;
 	}
 	for (i2 = 0; i2 < j; i2++)  //输出真值表前项
 	{
-		cout<<" "<< icu[i2]<<" " ;
+		cout << " " << icu[i2] << " ";
 	}
 	jg = tkh(sz, ccu, icu, h0);  //用函数求结果
 	if (jg == 0)  //结果为0，合取加1
@@ -73,7 +73,7 @@ int main()
 	{
 		xq[x++] = bj;
 	}
-	cout<<"    "<<jg<<endl;  //输出运算结果
+	cout << "    " << jg << endl;  //输出运算结果
 	sz = sz0;
 	for (i1 = 0; i1 < (int)pow(2.0, j) - 1; i1++)
 	{
@@ -87,9 +87,9 @@ int main()
 		sz = sz0;  //恢复被修改的数组
 		for (i2 = 0; i2 < j; i2++)
 		{
-			cout<<" "<<icu[i2]<<" ";
+			cout << " " << icu[i2] << " ";
 		} //输出真值表前项
-		cout<<"    "<<jg<<endl;  //输出运算结果
+		cout << "    " << jg << endl;  //输出运算结果
 	}
 	if (hq[0] == -1)  //不存在合取范式时
 	{
@@ -97,32 +97,32 @@ int main()
 	}
 	else
 	{
-		cout<<"\n该命题公式的主合取范式:\n\t";
+		cout << "\n该命题公式的主合取范式:\n\t";
 		for (i1 = 0; i1 < h; i1++)
 		{
 			if (i1 > 0)  //判断并添加符号
 			{
 				cout << "\\/";
 			}
-			cout<<"M("<<hq[i1]<<")";  //输出主合取范式
+			cout << "M(" << hq[i1] << ")";  //输出主合取范式
 		}
 	}
 	if (xq[0] == -1)  //不存在析取范式时
-		cout<<"\n该命题公式不存在主析取范式.\n";
+		cout << "\n该命题公式不存在主析取范式.\n";
 	else
 	{
-		cout<<"\n\n该命题公式的主析取范式:\n\t";
+		cout << "\n\n该命题公式的主析取范式:\n\t";
 		for (i1 = 0; i1 < x; i1++)
 		{
 			if (i1 > 0)  //判断并添加符号
 			{
 				cout << "/\\";
 			}
-			cout<<"m("<<xq[i1]<<")";  //输出主析取范式
+			cout << "m(" << xq[i1] << ")";  //输出主析取范式
 		}
 	}
-	cout<<"\n";
-	cout<<"\n欢迎下次再次使用!\n";  //结束
+	cout << "\n";
+	cout << "\n欢迎下次再次使用!\n";  //结束
 	system("pause");
 	return 0;
 }
@@ -189,7 +189,7 @@ int fkh(string sz, char ccu[N], int icu[N], int h0)  //主运算函数
 		for (i = 0; i < s - j; i++)  //先处理非
 			if (sz[i] == '!')
 			{
-				for (i1 = 0; i1 <h0; i1++)
+				for (i1 = 0; i1 < h0; i1++)
 					if (sz[i + 1] == ccu[i1])  //将变量赋值并给P1
 						p1 = icu[i1];
 				if (sz[i + 1] == -2)  //如果是前运算结果的0，则P1等于0
