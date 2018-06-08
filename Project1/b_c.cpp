@@ -1,7 +1,7 @@
 /*
 *created by ÍõÐÇÖÞ
 *Student Number 1652977
-*Tb.c for T1 of DiscreteMath Homework
+*Tb.c for T1 of DiscremeMath Homework
 */
 #include "math.h"
 #include "iostream"

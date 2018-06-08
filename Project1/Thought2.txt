@@ -5,3 +5,5 @@ b.c题
 sz用string代替了char*
 改用const设置常量
 使用string函数重载的=和自带的length()函数替代了cstring的功能
+编译环境:Visual Studio 2015
+语言:C++
