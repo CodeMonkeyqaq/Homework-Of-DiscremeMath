@@ -1,0 +1,7 @@
+b.c题
+在源代码基础上改用C++语言编写
+同样使用了menu()控制菜单输出
+使用iostream取代了stdio.h
+sz用string代替了char*
+改用const设置常量
+使用string函数重载的=和自带的length()函数替代了cstring的功能
