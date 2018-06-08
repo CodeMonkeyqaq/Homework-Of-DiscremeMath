@@ -1,0 +1,8 @@
+在解决A问题的时候将源代码不稳定的goto去掉
+使用了menu()函数输出菜单
+将Sleep时间缩短至500ms
+用while()控制语句进行输入是否正确的判断
+输入输出使用了cin cout
+去掉了头文件"stdio.h"
+实验环境：Visual Studio 2015
+使用语言：C++
