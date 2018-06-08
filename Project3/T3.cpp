@@ -1,7 +1,7 @@
 /*
 *Created by ÍõÐÇÖÞ
 *Student Number 1652977
-*This is T3 for DiscremeMath Homework.
+*This is T3 for DiscreteMath Homework.
 */
 #include "iostream"
 using namespace std;

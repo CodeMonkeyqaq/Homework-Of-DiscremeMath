@@ -1,7 +1,7 @@
 /*
 *Created by ÍõÐÇÖÞ
 *Student Number 1652977
-*This is T4 of DiscremeMath Homework
+*This is T4 of DiscreteMath Homework
 */
 #include <iostream>
 #include "climits"

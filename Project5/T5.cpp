@@ -1,7 +1,7 @@
 /*
 *Created by ÍõÐÇÖÞ
 *Student Number 1652977
-*This is T5 of DiscremeMath Homework
+*This is T5 of DiscreteMath Homework
 */
 #include "iostream"
 const int N = 13;

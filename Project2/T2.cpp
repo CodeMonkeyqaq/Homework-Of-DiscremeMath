@@ -1,7 +1,7 @@
 /*
 *Created by ÍõÐÇÖÞ
 *Student Number 1652977
-*This is T2 for DiscremeMath HomeWork
+*This is T2 for DiscreteMath HomeWork
 */
 #include <iostream>
 using namespace std;
